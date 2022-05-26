@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
+//#include "scheduling.h"
 
+    
 int main(){
 time_t s, val = 1;
 struct tm* current_time;
@@ -49,8 +51,21 @@ for (int i = 0; i < OLAY_SAYISI; i++)
            current_time->tm_hour,
            current_time->tm_min,
            current_time->tm_sec);
-
 }
+
+//scheduling schedulings;
+
+//schedulings.findWaitingTime();
+//schedulings.findTurnAroundTime();
+//schedulings.findavgTime();
+
+//bu kısımın yorum satırı olma nedeni:
+//visual studio code includePath hatası vermesidir 
+//projeyi riske atmamak için yorum satırına aldık
+//yukarda bulunan in #include "scheduling.h" yorum satırından çıkararak deneyebilirsiniz
+
+
+
 //Olay belleği
 printf("Tum olaylar(Bellek):");
 return (0);
