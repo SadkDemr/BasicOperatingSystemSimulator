@@ -12,7 +12,7 @@ There will be different event types in the project for now; A system skeleton ha
 
 Skills: C
 
-- 🔭 We are working on this page with my project partner. 
+
 
 
 
